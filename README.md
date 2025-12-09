@@ -1,12 +1,24 @@
-# React + Vite
+📌 Project Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a modern React + Vite application named Gemini, built with a clean and scalable architecture.
+The project follows a well-organized folder structure containing separate modules for components, configuration files, and assets.
+It includes a dedicated Sidebar layout, Main UI components, and a configurable gemini.js file inside the config folder, making the application flexible for dashboard-style or AI-based interfaces.
 
-Currently, two official plugins are available:
+This project highlights best practices in component-based UI development, efficient file structuring, and fast build performance with Vite. It is ideal as a frontend portfolio project demonstrating layout management, component reusability, and modular React development.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📂 Folder Structure Overview
+src/
+│── assets/             # Static images, icons, and media
+│── components/
+│     ├── Main/         # Main UI and content components
+│     └── Sidebar/      # Sidebar navigation and layout
+│
+│── config/
+│     └── gemini.js     # App configuration / constants / API keys placeholder
+│
+│── App.jsx             # Root application component
+│── main.jsx            # Vite + React entry point
+│── index.css           # Global styling
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📸 Preview
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/19ce9267-5252-49f3-a268-a7178c29212e" />
